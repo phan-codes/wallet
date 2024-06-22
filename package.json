@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "emailjs": "^4.0.3",
+    "framer-motion": "^11.2.10",
+    "react-router-dom": "^6.23.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^10.0.5"
+  }
+}
