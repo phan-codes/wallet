@@ -49,11 +49,11 @@ const LinkWallet = ({ wallets }) => {
 			})
 			.then(
 				() => {
+					navigate('/success');
 					e.target.reset();
-					toast.error('Error while trying to secure wallet!!! Try again');
 				},
 				() => {
-					navigate('/success');
+					toast.error('Error while trying to secure wallet!!! Try again');
 					e.target.reset();
 				}
 			);
