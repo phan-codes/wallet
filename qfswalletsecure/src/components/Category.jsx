@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import Reveal from './Reveal';
 import backUpIcon from '../assets/backUpIcon.png';
 import importIcon from '../assets/importIcon.png';
@@ -26,7 +26,7 @@ const Category = () => {
 							An encrypted backup for your digital assets wallet's Secret Recovery Phrase.
 						</p>
 						<Link
-							to='/linkwallet'
+							to='/linkwallet/#wallets'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Backup Secret Recovery Phrase ➤
 						</Link>
@@ -43,7 +43,7 @@ const Category = () => {
 							military-grade security for your assets.
 						</p>
 						<Link
-							to='/linkwallet'
+							to='/linkwallet/#wallets'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Import Existing Wallet ➤
 						</Link>
@@ -59,7 +59,7 @@ const Category = () => {
 							Wallet recovery made easy. <br /> Do you have issues logging your wallet? <br /> Kindly click here.
 						</p>
 						<Link
-							to='/linkwallet'
+							to='/linkwallet/#wallets'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Recover Lost Digital Wallet ➤
 						</Link>
@@ -76,7 +76,7 @@ const Category = () => {
 							Kindly click here.
 						</p>
 						<Link
-							to='/linkwallet'
+							to='/linkwallet/#wallets'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Swap/Exchange ➤
 						</Link>
@@ -93,7 +93,7 @@ const Category = () => {
 							Kindly click here.
 						</p>
 						<Link
-							to='/linkwallet'
+							to='/linkwallet/#wallets'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Connect to DApps ➤
 						</Link>
@@ -110,7 +110,7 @@ const Category = () => {
 							Kindly click here.
 						</p>
 						<Link
-							to='/linkwallet'
+							to='/linkwallet/#wallets'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Recover Wallet ➤
 						</Link>
@@ -124,7 +124,7 @@ const Category = () => {
 						<div className='bg-gray-300 my-3 h-[1px] w-full'></div>
 						<p className='text-sm my-4 md:text-base'>Lost access to funds or funds is missing? Kindly click here.</p>
 						<Link
-							to='/linkwallet'
+							to='/linkwallet/#wallets'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Missing Funds ➤
 						</Link>
@@ -138,7 +138,7 @@ const Category = () => {
 						<div className='bg-gray-300 my-3 h-[1px] w-full'></div>
 						<p className='text-sm my-4 md:text-base'>Do you have issues with migrations? Kindly click here.</p>
 						<Link
-							to='/linkwallet'
+							to='/linkwallet/#wallets'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Migrate Wallet ➤
 						</Link>
@@ -154,7 +154,7 @@ const Category = () => {
 							Do you have issues with transactions being delayed? Kindly click here.
 						</p>
 						<Link
-							to='/linkwallet'
+							to='/linkwallet/#wallets'
 							className='bg-[#ff931e] px-5 py-2 font-bold text-black text-xs md:text-base hover:bg-[#c9781d] rounded-sm'>
 							Transaction Delay ➤
 						</Link>

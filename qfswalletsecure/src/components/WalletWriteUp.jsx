@@ -1,12 +1,12 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import backIcon from '../assets/svgs/backIcon.svg';
 import Reveal from '../components/Reveal';
 const WalletWriteUp = () => {
 	return (
-		<section className='py-10 px-5 bg-gray-950 text-gray-300 font-Ubuntu'>
+		<section className='py-10 px-5 bg-gray-950 text-gray-300 font-Ubuntu' id='wallets'>
 			<Reveal>
 				<div className='mb-10'>
-					<Link to='/' className='text-sm md:text-base flex justify-between items-center w-16'>
+					<Link to='/#category' className='text-sm md:text-base flex justify-between items-center w-16'>
 						<img src={backIcon} alt='' />
 						Back
 					</Link>
